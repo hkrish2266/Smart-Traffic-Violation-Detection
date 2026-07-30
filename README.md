@@ -42,17 +42,21 @@ Smart-Traffic-Violation-Detection/
 ├── main.py
 ├── ocr.py
 ├── train.py
+├── yolo26n.pt
+├── .gitignore
+├── README.md
+├── requirements.txt
 │
 ├── dataset/
 │   ├── data.yaml
 │   ├── README.dataset.txt
 │   └── README.roboflow.txt
 │
-├── yolo26n.pt
-├── .gitignore
-└── README.md
+└── screenshots/
+    ├── detection_result.png
+    ├── ocr_result.png
+    └── database_record.png
 ```
-
 ---
 
 ## ⚙️ Installation
@@ -158,29 +162,21 @@ The model detects the following classes:
 
 ## 📷 Sample Results
 
-Add screenshots of your project here.
+### 🚦 Traffic Violation Detection
 
-Example:
+![Detection Result](screenshots/detection_result.png)
 
-```
-screenshots/
-├── detection_result.png
-├── database_record.png
-└── output_image.png
-```
+---
 
-Example README section after adding screenshots:
+### 🔤 Number Plate OCR
 
-```markdown
-### Detection Result
+![OCR Result](screenshots/ocr_result.png)
 
-![Detection](screenshots/detection_result.png)
+---
 
-### Database Record
+### 🗄️ Database Record
 
-![Database](screenshots/database_record.png)
-```
-
+![Database Record](screenshots/database_record.png)
 ---
 
 ## 📈 Future Improvements
