@@ -1,0 +1,33 @@
+# Virtual Environment
+.venv/
+
+# Environment Variables
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# YOLO Output
+runs/
+
+# Generated Output Images
+outputs/
+
+# Dataset (don't upload training data)
+dataset/train/
+dataset/valid/
+dataset/test/
+
+# YOLO Cache Files
+*.cache
+
+# Ignore base pretrained model
+yolov8n.pt
+
+# IDE
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db

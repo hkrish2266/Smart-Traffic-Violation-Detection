@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['helmet-detection', 'no helmet', 'number plate', 'rider', 'vehicle']
+
+roboflow:
+  workspace: krishnas-workspace-i1dor
+  project: helmet_detection-g4wzm
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/krishnas-workspace-i1dor/helmet_detection-g4wzm/dataset/2
