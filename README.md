@@ -34,6 +34,8 @@ This project leverages **YOLOv8** for object detection, **PaddleOCR** for number
 
 ## 📂 Project Structure
 
+## 📂 Project Structure
+
 ```text
 Smart-Traffic-Violation-Detection/
 │
@@ -53,9 +55,10 @@ Smart-Traffic-Violation-Detection/
 │   └── README.roboflow.txt
 │
 └── screenshots/
-    ├── detection_result.png
-    ├── ocr_result.png
-    └── database_record.png
+    ├── object_detection.png
+    ├── traffic_violation.png
+    ├── database_record.png
+    └── application_execution.png
 ```
 ---
 
@@ -162,21 +165,28 @@ The model detects the following classes:
 
 ## 📷 Sample Results
 
-### 🚦 Traffic Violation Detection
+### 🔍 Object Detection
 
-![Detection Result](screenshots/detection_result.png)
+![Object Detection](screenshots/object_detection.png)
 
 ---
 
-### 🔤 Number Plate OCR
+### 🚦 Traffic Violation Detection
 
-![OCR Result](screenshots/ocr_result.png)
+![Traffic Violation Detection](screenshots/traffic_violation.png)
 
 ---
 
 ### 🗄️ Database Record
 
 ![Database Record](screenshots/database_record.png)
+
+---
+
+### 💻 Application Execution
+
+![Application Execution](screenshots/application_execution.png)
+
 ---
 
 ## 📈 Future Improvements
