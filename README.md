@@ -21,14 +21,14 @@ This project leverages **YOLOv8** for object detection, **PaddleOCR** for number
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|------------|---------|
-| Python | Programming Language |
-| YOLOv8 | Object Detection |
-| PaddleOCR | Number Plate Recognition |
-| OpenCV | Image Processing |
-| MySQL | Database |
-| NumPy | Numerical Operations |
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-00FFFF)
+![PaddleOCR](https://img.shields.io/badge/PaddleOCR-OCR-orange)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+![Roboflow](https://img.shields.io/badge/Roboflow-6706CE)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 
 ---
 
